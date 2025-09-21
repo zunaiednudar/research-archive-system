@@ -1,6 +1,7 @@
-interface ResearchPaper {
-    public void view();
-}
+package research-archive-system;
+// interface ResearchPaper {
+//     public void view();
+// }
 
 public class FullResearchPaper implements ResearchPaper {
     private FullResearchPaper() {

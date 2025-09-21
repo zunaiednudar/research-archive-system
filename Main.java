@@ -1,21 +1,21 @@
-// package research-archive-system;
+package research-archive-system;
 import java.util.ArrayList;
-interface ResearchPaper {
-    public void view();
-}
+// interface ResearchPaper {
+//     public void view();
+// }
 
-// Factory Design Pattern
-class FullResearchPaper implements ResearchPaper {
-    String filename;
-    public FullResearchPaper(String filename) {
-        this.filename = filename;
-        this.view();
-    }
-    @Override
-    public void view() {
-        System.out.println("Loading the PDF from FullResearchPaper...  " + this.filename);
-    }
-}
+// // Factory Design Pattern
+// class FullResearchPaper implements ResearchPaper {
+//     String filename;
+//     public FullResearchPaper(String filename) {
+//         this.filename = filename;
+//         this.view();
+//     }
+//     @Override
+//     public void view() {
+//         System.out.println("Loading the PDF from FullResearchPaper...  " + this.filename);
+//     }
+// }
 
 class A implements ResearchPaper{
     String filename;

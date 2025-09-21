@@ -1,4 +1,6 @@
 // Factory Design Pattern
+package research-archive-system;
 public interface ResearchPaper {
-    void view();
+    public void view();
+    public String getPublicationYear();
 }
