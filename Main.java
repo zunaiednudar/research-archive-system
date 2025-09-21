@@ -17,17 +17,6 @@ import java.util.ArrayList;
 //     }
 // }
 
-class A implements ResearchPaper{
-    String filename;
-    public A(String filename) {
-        this.filename = filename;
-    }
-    @Override
-    public void view() {
-        System.out.println("Loading the PDF from A... " + this.filename);
-    }
-}
-
 public class Main {
     public static void main(String[] args) {
         ArrayList<ResearchPaper> paperList = new ArrayList<>();
